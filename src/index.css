@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/* Optional: ensure full-width root if needed */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  line-height: 1.6;
+  /* Global font family aligned with Tailwind's ui-sans-serif */
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: clamp(14px, calc(16px + 0.25vw), 18px);
+  overflow-x: hidden; /* Prevents horizontal scroll from breaking layout */
+}
+
+/* Global defaults */
+html {
+  /* Inherit box sizing to all elements */
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%; /* Prevents font scaling issues on orientation change */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
