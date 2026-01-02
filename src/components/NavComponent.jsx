@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
+import { titleStyle } from "./ComponentsCSS";
 import {
-  titleStyle,
   headerStyle,
   navStyle,
   navUlStyle,
@@ -12,7 +12,7 @@ import {
   mobileDivStyle,
   mobDefaultStyle,
   mobActiveStyle,
-} from "./ComponentsCSS";
+} from "../styles/NavCompStyles";
 import {
   FaHome,
   FaUser,
